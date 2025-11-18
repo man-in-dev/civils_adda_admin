@@ -173,6 +173,7 @@ export default function AdminTestsPage() {
               <div className="space-y-4">
                 {filteredTests.map((test) => {
                   const testId = test.id || test._id;
+                  if (!testId) return null;
                   return (
                     <div
                       key={testId}
