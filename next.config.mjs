@@ -3,4 +3,4 @@ const nextConfig = {
   assetPrefix: '/civils_admin',
 };
 
-module.exports = nextConfig;
+export default nextConfig;
